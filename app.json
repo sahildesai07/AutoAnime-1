@@ -1,5 +1,5 @@
 {
-  "name": "VideoCompressBot",
+  "name": "AutoAnime-1",
   "description": "Telegram's best Video Compress Bot",
   "logo": "https://telegra.ph/file/b687febf32e4d583fb1d4.jpg",
   "keywords": [
@@ -9,25 +9,25 @@
     "compress",
     "bot"
   ],
-  "success_url": "https://t.me/linux_repo",
-  "website": "https://t.me/Discovery_Updates",
+  "success_url": "https://t.me/blank_blankx",
+  "website": "https://t.me/ultroidofficial",
   "repository": "https://github.com/sahildesai07/AutoAnime-1",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable VARs when in ENV mode",
       "value": "ANYTHING"
     },
-    "SESSION_NAME": {
+    "DATABASE_URL": {
       "description": "Keep this default",
-      "value": "AHCompressBot",
+      "value": "",
       "required": false
     },
-    "TG_BOT_TOKEN": {
+    "BOT_TOKEN": {
       "description": "Your bot token, as a string. Get this from @BotFather",
       "value": "",
       "required": false
     },
-    "APP_ID": {
+    "API_ID": {
       "description": "Get this value from https://my.telegram.org",
       "value": "",
       "required": false
@@ -37,17 +37,22 @@
       "value": "",
       "required": false
     },
-    "BOT_USERNAME": {
+    "OWNER_ID": {
       "description": "Your Bot Username. Without `@` before Username!",
       "value": "",
       "required": false
     },
-    "LOG_CHANNEL": {
+    "MAIN_CHANNEL": {
+      "description": "Your Bot's Log Channel's Username. For Help ask in @linux_repo",
+      "value": "",
+      "required": true
+      
+    "ARCHIVE_CHANNEL": {
       "description": "Your Bot's Log Channel's Username. For Help ask in @linux_repo",
       "value": "",
       "required": true
     },
-    "AUTH_USERS": {
+    "MESSAGE_ID": {
       "description": "Allow only pre-defined users to use this bot as Sudo User. Separate with Space. Just for using Admin Commands.",
       "value": "1666551439",
       "required": false
