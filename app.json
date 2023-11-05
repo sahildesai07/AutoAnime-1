@@ -46,7 +46,7 @@
       "description": "Your Bot's Log Channel's Username. For Help ask in @linux_repo",
       "value": "",
       "required": true
-      
+    },
     "ARCHIVE_CHANNEL": {
       "description": "Your Bot's Log Channel's Username. For Help ask in @linux_repo",
       "value": "",
