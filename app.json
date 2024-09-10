@@ -1,7 +1,7 @@
 {
   "name": "AutoAnime-1",
   "description": "Telegram's best Video Compress Bot",
-  "logo": "https://telegra.ph/file/b687febf32e4d583fb1d4.jpg",
+  "logo": "https://envs.sh/PSE.jpg",
   "keywords": [
     "telegram",
     "best",
@@ -9,9 +9,9 @@
     "compress",
     "bot"
   ],
-  "success_url": "https://t.me/blank_blankx",
-  "website": "https://t.me/ultroidofficial",
-  "repository": "https://github.com/sahildesai07/AutoAnime-1",
+  "success_url": "https://t.me/ftmmovieskiduniya",
+  "website": "https://t.me/ftmmovieskiduniya",
+  "repository": "https://github.com/ninzagamerz/AutoAnime-1",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable VARs when in ENV mode",
@@ -19,42 +19,42 @@
     },
     "DATABASE_URL": {
       "description": "Keep this default",
-      "value": "",
+      "value": "mongodb+srv://ftm:ftm@cluster0.rhh9r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
       "required": false
     },
     "BOT_TOKEN": {
       "description": "Your bot token, as a string. Get this from @BotFather",
-      "value": "",
+      "value": "7377357282:AAER1lGRQKTgCpg1PG3r4V91_dK6xJ_N9OY",
       "required": false
     },
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "",
+      "value": "28776072",
       "required": false
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "",
+      "value": "b3a786dce1f4e7d56674b7cadfde3c9d",
       "required": false
     },
     "OWNER_ID": {
       "description": "Your Bot Username. Without `@` before Username!",
-      "value": "",
+      "value": "7042535787",
       "required": false
     },
     "MAIN_CHANNEL": {
       "description": "Your Bot's Log Channel's Username. For Help ask in @linux_repo",
-      "value": "",
+      "value": "-1002209201816",
       "required": true
     },
     "ARCHIVE_CHANNEL": {
       "description": "Your Bot's Log Channel's Username. For Help ask in @linux_repo",
-      "value": "",
+      "value": "-1002209201816",
       "required": true
     },
     "MESSAGE_ID": {
       "description": "Allow only pre-defined users to use this bot as Sudo User. Separate with Space. Just for using Admin Commands.",
-      "value": "1666551439",
+      "value": "1666",
       "required": false
     }
   },
